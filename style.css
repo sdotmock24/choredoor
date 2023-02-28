@@ -1,0 +1,82 @@
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #f5f5f5 ;
+  --primary-color: black;
+  --secondary-color: #b1a296;
+  --primary-shadow: #bc986a;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+
+body {
+    background-color: var(--primary-color);
+    margin: 0px;
+  }
+  
+  .header {
+    background-color: var(--secondary-color);
+    text-align: center;
+  }
+  
+  .title-row {
+    margin-top: 42px;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+  
+  .instructions-title {
+    display: inline;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    color: var(--secondary-color);
+  }
+  
+  .instructions-row {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .instructions-number {
+    padding-right: 25px;
+    font-family: 'Work Sans';
+    font-size: 36px;
+    color: var(--secondary-color);
+  }
+  
+  .instructions-text {
+    padding: 10px;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    color: var(--bg-color);
+  }
+  
+  .door-row {
+    text-align: center;
+  }
+  
+  .door-frame {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .start-row {
+    margin: auto;
+    width: 120px;
+    height: 43px;
+    background-color: var(--secondary-color);
+    padding-top: 18px;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    text-align: center;
+    color: var(--bg-color);
+    margin-bottom: 9px;
+    cursor: pointer;
+  }
+  
